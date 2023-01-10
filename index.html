@@ -2,18 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="styles.css"></link>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Akaya Telivigala">
     <title>Recipe|Simmi</title>
 </head>
 <body>
-<header>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="butturchicken.html">Butter Chicken</a></li>
-        <li><a href="chicken_biryani.html">Chicken Biryani</a></li>
-        <li><a href="aloo_parantha.html">Aloo Parantha</a></li>
-    </ul>
-</header>
+    <div class="main">
+        <image class="backgroundimage" src="recipes/pictures/india1.jpeg" rel="background image" />
+        <div class="header">
+            <h1>Odin Recipes</h1>
+            <p class="description">A taste of INDIA....</p>
+        </div>
+        <div class="content">
+            <div class="recipe butterchicken">
+                <img class="image" src="recipes/pictures/butterchicken.jpeg" width="300px" height="200px"/>
+                <a class="link" href="recipes/butturchicken.html">Butter Chicken</a>
+            </div>
+            <div class="recipe chickenbiryani">
+                <img class="image" src="recipes/pictures/chickenpulao.webp" width="300px" height="200px"/>
+                <a class="link" href="recipes/chicken_biryani.html">Chicken Biryani</a>
+            </div>
+            <div class="recipe alooparantha">
+                <img class="image" src="recipes/pictures/alooparantha.jpeg" width="300px" height="200px"/>
+                <a class="link" href="recipes/aloo_parantha.html">Aloo Parantha</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
